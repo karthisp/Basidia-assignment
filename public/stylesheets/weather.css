@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1554795064-799bbb6d0dba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1494&q=80');
+    background-position: center;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2em;
+    color: white;
+    background: transparent;
+}
+
+input {
+    padding: 5px 15px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.weather-display {
+    margin-top: 12em;
+}
+
+.date-city, .weather-details {
+    padding-left: 2em;
+}
+
+.weather-details {
+    margin-top: 5em;
+    display: flex;
+    max-width: 850px;
+    background: rgba(216, 216, 216, 0.3);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.temperature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.temp-in-deg {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.other-details ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.other-details ul li {
+    display: flex;
+    justify-content: space-around;
+    padding: 2.8em;
+}
+
+.right-bod {
+    border-right: 1px solid rgba(228, 228, 228, 0.3);
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:990px) {
+    .weather-details{
+        max-width:300px;
+    }
+
+    .weather-display {
+        margin-top: 8em;
+    }
+    .weather-details {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .other-details ul {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .other-details ul li {
+        border-bottom: 1px solid rgb(224, 224, 224);
+        border-right: none;
+        justify-content: flex-start;
+        padding: 0px;
+        margin: 4px 0px;
+        padding: 10px 0px;
+        max-width: calc(100%/1.5);
+    }
+}
+
+@media screen and (max-width:490px){
+    .navbar{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+
+@media screen and (max-width:360px){
+    .weather-display{
+        margin-top:2em;
+    }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheets/home.css">
+</head>
+
+<body>
+    <nav>
+        <a href="/home">Home</a>
+        <form action="">
+            <input type="text" placeholder="State Name">
+            <button>Search</button>
+        </form>
+        <a href="/weather">Weather</a>
+    </nav>
+
+    <section class="covid-dara">
+        <h1>Covid in India</h1>
+        <table>
+            <thead class="table-head">
+                <tr>
+                    <th scope="col">State/UT</th>
+                    <th scope="col">Confirmed <span class="confirm-sort">&dtrif;</span></th>
+                    <th scope="col">Active</th>
+                    <th scope="col">Recovered</th>
+                    <th scope="col">Deceased</th>
+                </tr>
+            </thead>
+            <tbody class="table-body"></tbody>
+        </table>
+    </section>
+    <script src="../scripts/home.js"></script>
+</body>
+
+</html>

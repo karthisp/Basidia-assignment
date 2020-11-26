@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheets/signup.css">
+</head>
+<body>
+    <section id="signup-section-container">
+        <h1>Signup</h1>
+        <div class="form-container">
+            <div class="signup-form-container sec1">
+                <form action="/signup" method="POST">
+                    <div class="name input-area">
+                        <label for=""><i class="fas fa-user"></i></label>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="email input-area">
+                        <label for=""><i class="fas fa-envelope"></i></label>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="password input-area">
+                        <label for=""><i class="fas fa-lock"></i></label>
+                        <input type="password" name="password" placeholder="Password" required>
+                    </div>
+                    <div class="re-password input-area">
+                        <label for=""><i class="fas fa-unlock"></i></label>
+                        <input type="password" placeholder="Repeat your password" required>
+                    </div>
+    
+                    <div class="terms">
+                        <input type="checkbox" required>
+                        <label for="">I agree all statements in <a href="#">Terms of services</a></i></label>
+                    </div>
+    
+                    <button class="submit-btn">Register</button>
+                </form>
+            </div>
+    
+            <div class="sec2">
+                <img src="signup-image.webp" alt="">
+                <a href="/signin">I am already a member</a>
+            </div>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/86ef774720.js" crossorigin="anonymous"></script>
+</body>
+</html>

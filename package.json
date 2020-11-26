@@ -1,0 +1,18 @@
+{
+  "name": "karthik_sp_basadia_assignment",
+  "version": "1.0.0",
+  "description": "basidia Basidia Assessment Task_FrontEnd Web Developer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karthik_sp",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "google-spreadsheet": "^3.0.13"
+  }
+}

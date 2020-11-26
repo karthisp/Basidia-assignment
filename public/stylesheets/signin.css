@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background:#F8F8F8;
+    height:100%;
+    color:#232322;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+a{
+    color:#232322;
+}
+
+#signin-section-container{
+    background:#FFFFFF;
+    max-width:  800px;
+    height:600px;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:3em;
+    border-radius: 20px;
+    box-shadow: 2px 10px 5px 5px #EFEFEF;
+    padding:5em;
+}
+
+.form-container{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    height:100%;
+    font-weight: 300;
+}
+
+.sec1{
+    height:300px;
+}
+
+img{
+    height:300px;
+}
+
+.sec2{
+    max-height:300px;
+    width:300px;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.input-area{
+    padding:5px 5px 5px 0px;
+    border-bottom: 1px solid black;
+    margin:10px 0px;
+}
+
+input{
+    border:none;
+    background:none;
+    font-size: 15px;
+}
+
+input:focus{
+    outline: none;
+}
+
+label{
+    padding-right: 10px;
+}
+
+.remember{
+    margin:10px 0px;
+}
+
+.remember label{
+    padding-left:10px;
+}
+
+button{
+    display: inline-block;    
+    text-align: center;
+    border:none;
+    background:#6DABE4;
+    padding:10px 10px;
+    border-radius: 5px;
+    color:white;
+    width:30%;
+    margin-top:2.5em;
+}
+
+.other-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-links{
+    display:flex;
+}
+
+.links{
+    display:flex;
+    margin-left:10px;
+}
+
+.links li{
+    list-style: none;
+    margin-left:10px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheets/weather.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <span class="logo">weather</span>
+        <form action="">
+            <input type="text" name="city" placeholder="City Name">
+        </form>
+    </nav>
+
+    <section class="weather-display">
+        <header class="date-city">
+            <span class="date">November 20</span>
+            <h1><span class="city">Bangalore</span> <span class="arrow">&#8594;</span></h1>
+        </header>
+        <div class="weather-details">
+            <div class="temperature">
+                <span class='temp-in-deg'><span class="temp">40</span>&#176;c</span>
+                <span class="temp-feel">Feels like <span class="feelslike">44</span>&#176;c</span>
+            </div>
+
+            <div class="other-details">
+                <ul>
+                    <li class="right-bod">
+                        <div class="icon">
+                            <i class="fas fa-cloud-rain"></i>
+                        </div>
+                        <div class="other">
+                            <span>Rain</span>
+                            <span><span  class="rain">40</span>%</span>
+                        </div>
+                    </li>
+                    <li class="right-bod">
+                        <div class="icon">
+                            <i class="fas fa-wind"></i>
+                        </div>
+                        <div class="other">
+                            <span>Wind</span>
+                           <span> <span class="wind">40</span> km/h</span>
+                        </div>
+                    </li>
+                    <li class="right-bod">
+                        <div class="icon">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <div class="other">
+                            <span>Humidity</span>
+                            <span><span class="humidity">40</span>%</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                        <div class="other">
+                            <span>UV Index</span>
+                            <span><span class="uv">6</span> out of 10</span>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="../scripts/weather.js"></script>
+    <script src="https://kit.fontawesome.com/86ef774720.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
