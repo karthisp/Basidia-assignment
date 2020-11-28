@@ -21,6 +21,11 @@ li {
     list-style: none;
 }
 
+a{
+    color:white;
+    text-decoration: none;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -28,6 +33,10 @@ li {
     padding: 10px 2em;
     color: white;
     background: transparent;
+}
+
+.logo{
+    font-size: 30px;
 }
 
 input {

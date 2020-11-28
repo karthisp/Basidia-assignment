@@ -19,12 +19,13 @@ h1{
 
 a{
     color:#232322;
+    text-decoration: none;
 }
 
 #signin-section-container{
     background:#FFFFFF;
     max-width:  800px;
-    height:600px;
+    height:80%;
     margin:0 auto;
     display:flex;
     flex-direction: column;
@@ -105,10 +106,13 @@ button{
 .other-links{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    max-width:590px;
 }
 
 .social-links{
     display:flex;
+    align-items: center;
 }
 
 .links{
@@ -119,4 +123,20 @@ button{
 .links li{
     list-style: none;
     margin-left:10px;
+}
+
+.facebook{
+    color:#3B5998;
+}
+
+.twitter{
+    color:#1DA0F2;
+}
+
+.google{
+    color:#E72734
+}
+
+.facebook, .twitter, .google{
+    font-size: 20px;
 }

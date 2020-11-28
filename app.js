@@ -7,6 +7,7 @@ const { GoogleSpreadsheet } = require('google-spreadsheet');
 const app = express();
 app.set('view engine', 'ejs')
 app.use(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + "/images"));
 app.use(express.static('public/images'))
 app.use(express.static('public/scripts'))
 app.use(bodyParser.urlencoded({ extended: false }));
