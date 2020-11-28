@@ -1,24 +1,24 @@
 # Basidia-assignment
-A simple web app assignment
+A simple web app assignment from [Basidia learning pvt ltd]('https://www.basidialearning.com/')
 
 Table of contents
 
 ----------------------------
 
-1. [About The Project]('')
-    * [Built With]('')
-1. [The Homepage]('')
-1. [Weather Api]('')
-1. [Authentication]('') 
-1. [Contact]('')    
-1. [Acknowledgement]('')    
+1. [About The Project]('#about-the-project')
+    * [Built With]('#built-with')
+1. [The Homepage]('#the-homepage')
+1. [Weather Api]('#weather-api')
+1. [Authentication]('#authentication') 
+1. [Contact]('#contact')    
+1. [Acknowledgement]('#acknowledgement')    
 
 -----------------------------------
 ## About The Project
-The objective of this assignment was to create a web app with a homepage where the latest codiv data is displayed in a table and a weather route where users can check the weather forcast of any city in the world.
+The objective of this assignment was to create a web app with a homepage where the latest coronavirus data is showed in a table and a weather route where users can check the weather forcast of any city in the world.
 
 ### Built With
-This entire app was built with the following stack
+The app was built with the following stack
 
 * FrontEnd
     * HTML
@@ -34,12 +34,12 @@ This entire app was built with the following stack
 ## The Homepage
 <img src="./images/home.png" style="width:600px;height:300px;" alt="homepage">
 
-The homepage displays the Coronavirus data for India and the information for it is being fetched from the data.csv file with the help of **fetch api**. Also, when searched for the details of a perticular state, the data of that state gets highlighted.
+The homepage displays the Coronavirus data for India and the information for it is being fetched from the data.csv file with the help of **fetch api**. Also, when search for the details of a perticular state, the data of that state gets highlighted.
 
 ## Weather Api
 <img src="./images/weather.png" style="width:600px;height:300px;" alt="weather">
 
-This section of the app shows the weather data of any city in the world. The data for it is being obtainer from [weather api]('https://rapidapi.com/marketplace')
+This section of the app shows the weather data of any city in the world. The data for it is being ontained from [weather api]('https://rapidapi.com/marketplace')
 
 ## Authentication
 <img src="./images/signup.png" style="width:450px;height:300px;" alt="signup page">
