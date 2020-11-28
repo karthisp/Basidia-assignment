@@ -3,3 +3,6 @@ node_modules
 
 #googlesheets key
 client_servel_key.json
+
+#weather api key
+weather_api.js
